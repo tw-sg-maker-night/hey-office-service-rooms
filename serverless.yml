@@ -1,4 +1,4 @@
-service: hey-office-service-gateway
+service: hey-office-service-rooms
 
 provider:
   name: aws
