@@ -4,8 +4,16 @@
   "description": "Hey Office Service handler for rooms",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha handler.spec.js"
   },
   "author": "Albert Salim <asalim@thoughtworks.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.7.21",
+    "moment-timezone": "^0.5.11"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
