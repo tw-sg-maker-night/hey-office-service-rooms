@@ -1,0 +1,11 @@
+{
+  "name": "hey-office-service-rooms",
+  "version": "1.0.0",
+  "description": "Hey Office Service handler for rooms",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Salim <asalim@thoughtworks.com>",
+  "license": "ISC"
+}
